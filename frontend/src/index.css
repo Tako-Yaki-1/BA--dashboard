@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* charcoal-slate sidebar and headings */
+  --color-ink-950: #141824;
+  --color-ink-900: #1e2432;
+  --color-ink-700: #3a4254;
+  --color-ink-500: #6b7386;
+
+  /* light neutral-gray background */
+  --color-surface-100: #f5f6f8;
+  --color-surface-50: #ffffff;
+
+  /* one bold accent — electric violet (the highlighted keycap) */
+  --color-accent-600: #6d28d9;
+  --color-accent-500: #7c3aed;
+  --color-accent-100: #ede9fe;
+
+  /* muted green positive, clay red negative */
+  --color-positive-600: #2f855a;
+  --color-negative-600: #c05630;
+
+  /* keycap colors for the four marketing channels */
+  --color-ch-facebook: #3b82f6; /* Facebook and Instagram Ads */
+  --color-ch-tiktok: #ec4899; /* TikTok Creator Collabs */
+  --color-ch-discord: #6366f1; /* Discord and Gaming Community Sponsorships */
+  --color-ch-popup: #f59e0b; /* Campus Pop-up Booths */
+
+  /* keycap colors for the five product categories */
+  --color-cat-kit: #7c3aed; /* Keyboard Kits */
+  --color-cat-switch: #06b6d4; /* Switches */
+  --color-cat-keycap: #f59e0b; /* Keycap Sets */
+  --color-cat-deskmat: #10b981; /* Deskmats and Accessories */
+  --color-cat-mod: #ef4444; /* Mod Parts and Tools */
+
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
